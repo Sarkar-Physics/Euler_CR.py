@@ -32,8 +32,10 @@ for i in range(N):
 
 exactp=np.zeros(N)
 t=np.linspace(a,b,N)
+a=0
 for i in range(N): 
-    exactp[i]=V*(1-np.exp(-(1/(R*C)*i/N)))
+    exactp[i]=V*(1-np.exp(-(1/(R*C)*a)))
+    a=a+h
        
 exact=V*(1-np.exp(-(1/(R*C)*b)))
 print("The value of V:",y/C)
