@@ -1,12 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Sep 23 20:09:45 2020
 
-@author: iamsa
-"""
-
-
-#NEWTON'S LAW OF COOLING USING EULER METHOD
+# NEWTON'S LAW OF COOLING USING EULER METHOD #
 import numpy as np
 import matplotlib.pyplot as plt
 
