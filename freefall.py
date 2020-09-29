@@ -2,7 +2,7 @@
 """An object of mass m kg is released from rest from a height
 h metre and falls under gravity. Formulate the model and 
 nd velocity variation
-with time for a period of 5 sec using Euler algorithm (Equation 7). Take time step
+with time for a period of 5 sec using Euler algorithm. Take time step
 as #t = 0:5:
 """
 
