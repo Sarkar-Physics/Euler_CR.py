@@ -14,10 +14,10 @@ def euler(f,y0,a,b,h):
         plot_y.append(y)
         t=t+h
         y=y+h*f(y,t)
-T_a=float(input("Enter the ambiant Temperature(°C):"))
-T_0=float(input("Enter initial temperature(°C):"))
-x_0=int(input("Enter initial time(sec):"))
-x_f=int(input("Enter required time(sec):"))
+T_a=float(input("Enter the ambiant Temperature(°C):")) #T_a=20.0
+T_0=float(input("Enter initial temperature(°C):"))     #t_0=100.0
+x_0=int(input("Enter initial time(sec):"))             #x_0=0
+x_f=int(input("Enter required time(sec):"))            #x_f=50
 
         
 def cooling(temp,time):
